@@ -25,7 +25,6 @@ public class Patient {
         this.CIN = CIN;
     }
 
-
     public Long getId() {
         return id;
     }

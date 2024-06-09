@@ -14,6 +14,15 @@ public class Medcin {
     private String prenom;
     private Date date_naissance;
     private String adresse;
+    private String cin ;
+
+    public String getCin() {
+        return cin;
+    }
+
+    public void setCin(String cin) {
+        this.cin = cin;
+    }
 
     public String getSpecialite() {
         return specialite;

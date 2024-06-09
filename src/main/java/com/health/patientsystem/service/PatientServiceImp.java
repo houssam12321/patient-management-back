@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PatientServiceImp implements PatientService{
@@ -22,4 +23,6 @@ public class PatientServiceImp implements PatientService{
     public List<Patient> getAllPatients() {
         return patientRepo.findAll();
     }
+
 }
+
